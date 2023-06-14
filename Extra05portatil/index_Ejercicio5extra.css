@@ -1,0 +1,26 @@
+div.card-body{
+    border: solid 1px white;
+    border-width: 20px;
+}
+
+div.col-md-4 {
+    align-self: center;
+    max-width: 900px;
+    height: auto;
+}
+
+div.card-body {
+    background-color: whitesmoke;
+}
+
+button.btn-primary{
+    background-color: gold;
+    border-color: gold;
+    color: black;
+}
+
+button.btn-primary:hover{
+border-color: black;
+background-color: black;
+}
+

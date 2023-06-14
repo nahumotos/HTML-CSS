@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrar usuario</title>
+    </head>
+    <body>
+        <h1>Registrar un usuario</h1>
+        <section>
+            <div>
+                <form action="/controlador-registro" method="post" class="form-registro" enctype="multipart/form-data">
+                    <div>
+                        <label for="nombre">Nombre </label> <br>
+                        <input name="nombre" type="text" required>
+                    </div>
+                    <div>
+                        <label for="contrasenia">Contraseña </label> <br>
+                        <input name="contrasenia" type="password" required>
+                    </div>
+                    <div>
+                        <label for="number">Edad</label><br>
+                        <input name="number" type="number" required>
+                    </div>
+                    <div>
+                        <label for="date">Fecha de nacimiento</label><br>
+                        <input name="date" type="date" placeholder="password" required>
+                    </div>
+                    <div>
+                        <label>Sexo</label><br>
+                        <input name="femenino" type="radio" value="f">
+                        <label for="femenino">femenino</label><br>
+                        <input name="masculino" type="radio" value="m">
+                        <label for="masculino">masculino</label><br>
+                        <input name="otro" type="radio" value="x">
+                        <label for="otro">Prefiero no decirlo</label>
+                    </div>
+                    <div>
+                        <label for="pais">Pais de nacimiento</label><br>
+                        <select name="pais">
+                            <option value="arg">arg</option>
+                            <option value="chl">chl</option>
+                            <option value="bra">bra</option>
+                            <option value ="uru">uru</option>
+                        </select>
+                    </div> 
+                    </div>
+                    <br>
+                    <button type="submit">submit</button>
+                    <button type="reset">borrar</button>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

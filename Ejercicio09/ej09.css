@@ -1,0 +1,55 @@
+h1{
+    color: aquamarine;
+
+}
+p strong{
+    color: red;
+}
+p .destacado{
+    color: yellow;
+}
+h2{
+   color: aqua; 
+}
+a {
+    color: red;
+
+}
+em{
+    color: blue;
+}
+div{
+    color: brown;
+}
+#especial{
+    color: blueviolet;
+}
+#adicional a{
+    color: green;
+}
+thead{
+    color: yellow;
+}
+tfoot{
+    color: red;
+}
+tbody .especial{
+    color: orange;
+}
+tbody td{
+    color: violet;
+}
+tbody td em{
+    color: violet;
+}
+tbody td strong{
+    color: yellowgreen;
+}
+tbody th{
+    color: red;
+}
+table,th,td{
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+}

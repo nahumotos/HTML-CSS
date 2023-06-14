@@ -1,0 +1,14 @@
+div .col-md-8{
+    background-color: beige;
+}
+div .btn-primary{
+    background-color: rgb(212, 212, 14);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+div .btn-primary:hover{
+    border-color: black;
+    background-color: black;
+}
+
